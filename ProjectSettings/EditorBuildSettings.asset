@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashLoad.unity
+    guid: 8c765b1e19b07514abaf8e79152a2e06
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2f6df9762da3efa4abb9687724f0bd44
+  - enabled: 1
+    path: Assets/Scenes/VRView.unity
+    guid: e41eccc8b104e6b4caa82c3ed9a054c4
+  - enabled: 0
+    path: Assets/Scenes/AsymmAspect.unity
+    guid: f22dab986a61ca64083ce24ba44521e6
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2cb41dda6fde6044182083a63072e37a, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 8995b4d744104df4589bc7b498f94aa0, type: 2}
+    com.unity.renderstreaming.settings: {fileID: 11400000, guid: 07f9e3a0985dc6444bb1168fddf6c9d6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a0b0722bd6315824bb65ab6b40397aa8, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a6ed0ce0f469a2b47bf6be8326150b15, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: ad8d96b139c21c442a791d23d0c89495, type: 2}

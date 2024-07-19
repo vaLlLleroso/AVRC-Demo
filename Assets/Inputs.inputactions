@@ -1,0 +1,46 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "AM1",
+            "id": "01264b29-4fd6-4b5a-a34c-d7e5221e5c6b",
+            "actions": [
+                {
+                    "name": "MouseIn",
+                    "type": "Value",
+                    "id": "1aa461a7-0316-4c7b-9e2c-9be861911130",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c42dc60b-6af2-4566-a646-6fa2cd10c3e3",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseIn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
